@@ -8,6 +8,11 @@
       "firebase-debug.log",
       "firebase-debug.*.log",
       "functions"
-    ]
+    ],
+    "framework": {
+      "name": "nextjs",
+      "buildCommand": "npm run build",
+      "publicDirectory": ".next"
+    }
   }
 }
